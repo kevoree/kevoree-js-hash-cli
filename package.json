@@ -1,0 +1,49 @@
+{
+  "name": "kevoree-hash-cli",
+  "version": "1.0.0",
+  "description": "Give the current Kevoree hash of the project if a package.json is found and is a valid Kevoree project",
+  "main": "cli.js",
+	"bin": {
+		"kevoree-hash": "cli.js"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "kevoree-hash": "^1.0.0",
+    "pkg-hash": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevoree/kevoree-js-hash-cli.git"
+  },
+  "keywords": [
+    "kevoree",
+    "hash",
+    "cli"
+  ],
+  "author": "Maxime Tricoire <max.tricoire@gmail.com>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kevoree/kevoree-js-hash-cli/issues"
+  },
+  "homepage": "https://github.com/kevoree/kevoree-js-hash-cli#readme",
+  "devDependencies": {
+    "eslint": "3.11.1"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+		"rules": {
+			"no-console": 0
+		}
+  }
+}
